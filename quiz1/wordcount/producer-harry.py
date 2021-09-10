@@ -13,7 +13,7 @@ p = Producer({'bootstrap.servers': 'localhost:9092,localhost:9192,localhost:9292
 
 file1 = open('book.txt', 'r') 
 for x in file1:
-  print(x)
+    print(x)
 
 # Lines = file1.readlines()
 # for data in Lines:
